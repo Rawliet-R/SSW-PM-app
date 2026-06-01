@@ -1,0 +1,1381 @@
+{
+  "app_meta": {
+    "name": "SSW PM Master",
+    "version": "1.0",
+    "language": [
+      "jp",
+      "id"
+    ],
+    "module": "SSW_PM_MODUL_KUNING",
+    "published": "2024-12"
+  },
+  "categories": [
+    {
+      "id": "industry_overview",
+      "name": "Keterampilan yang Diperlukan di Industri Makanan & Minuman",
+      "lessons": [
+        {
+          "lesson_id": "IO_01",
+          "title": "Berbagai Jenis Industri dan Keterampilan yang Diperlukan",
+          "content_jp": "飲料や食料品は私たちの生活に欠かせません。飲料や食料品を工場で製造する仕事が「飲食料品製造業」です。ハム・ソーセージ、魚の缶詰、調味料、パンやお菓子、弁当やそう菜、冷凍食品などの食料品製造業、ジュースやお茶、コーヒーなどの飲料製造業など、いろいろな飲食料品製造業があります。どの業種でも、「食品衛生」と「労働安全」の知識と技能が必要となります。「食品衛生」とは、食品を食べて、人が病気にならないこと、ケガをしないことです。「労働安全」とは、作業者の安全と健康を守ることです。",
+          "content_id": "**Pengenalan Industri Manufaktur Makanan dan Minuman**\nBahan makanan dan minuman sangat penting untuk kehidupan kita semua. Contoh produk olahan manufaktur makanan dan minuman antara lain: sosis daging, ikan kaleng, roti dan jajanan, nasi kotak dan pendamping, serta makanan beku.\n\n**Jenis-Jenis Industri Manufaktur Makanan dan Minuman**\nJenis industri manufaktur makanan dan minuman yang termasuk dalam program keahlian khusus tingkat 1 (Tokutei Ginou) antara lain:\n1. Industri manufaktur bahan makanan hewani (telur, susu, dll)\n2. Industri manufaktur makanan berbahan ikan\n3. Industri manufaktur pembuatan bumbu\n4. Industri manufaktur pembuatan roti dan kue/cemilan\n5. Industri pembuatan lauk\n6. Industri manufaktur pembuatan makanan beku / frozen food\n7. Industri manufaktur pembuatan minuman ringan\n\nApapun industrinya, yang dibutuhkan adalah keterampilan pengetahuan tentang Keselamatan Kerja dan Kebersihan Pangan.\n\n**Kebersihan Pangan (Shokuhin Eisei)**\nKebersihan (eisei) adalah melindungi kehidupan. Kebersihan pangan adalah upaya agar semua makanan tidak membuat orang sakit atau terluka ketika dimakan.\n\nAgar orang tidak terluka dan sakit saat makan, ada manajemen pengelolaan industri manufaktur makanan yang disebut 'Manajemen Kebersihan Produksi Makanan'. \n\nApabila keamanan pangan tidak cukup aman, maka dapat menimbulkan penyakit dan luka. Perusahaan yang membuat makanan tersebut juga akan kehilangan kredibilitasnya.\n\n**Keselamatan Kerja (Roudou Anzen)**\nDi pabrik makanan, dapat terjadi kecelakaan kerja seperti luka. Untuk mencegah luka di pabrik, harus menggunakan peralatan perlindungan keselamatan dengan benar seperti pakaian kerja dan helm.\n\nSelain itu, pekerjaan harus dikerjakan sesuai dengan peraturan dan tata kerja yang ditetapkan oleh pabrik.\n\nKeselamatan kerja adalah melindungi kesehatan dan keamanan pekerja.",
+          "main_points": [
+            "飲食料品製造業とは飲料と食料品を工場で製造する仕事",
+            "業種：畜産・水産食料品製造業、調味料製造業、パン菓子製造業、そう菜製造業、冷凍調理食品製造業、清涼飲料製造業など",
+            "すべての業種で共通して必要：食品衛生と労働安全の知識・技能",
+            "食品衛生＝食品を食べて病気にならない・ケガをしない",
+            "労働安全＝作業者の安全と健康を守る"
+          ],
+          "vocab": [
+            {
+              "id": "inshoku_ryouhin_seizougyou",
+              "jp": "飲食料品製造業",
+              "indo": "industri manufaktur makanan dan minuman"
+            },
+            {
+              "id": "shokuhin_eisei",
+              "jp": "食品衛生",
+              "indo": "kebersihan / sanitasi makanan"
+            },
+            {
+              "id": "roudou_anzen",
+              "jp": "労働安全",
+              "indo": "keselamatan kerja"
+            },
+            {
+              "id": "shokuhin_koujou",
+              "jp": "食品工場",
+              "indo": "pabrik makanan"
+            },
+            {
+              "id": "reitou_shokuhin",
+              "jp": "冷凍食品",
+              "indo": "makanan beku"
+            },
+            {
+              "id": "souzai",
+              "jp": "そう菜（惣菜）",
+              "indo": "makanan siap saji / lauk pauk"
+            },
+            {
+              "id": "chouseiryou",
+              "jp": "調味料",
+              "indo": "bumbu / penyedap"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "飲食料品製造業のすべての業種に共通して必要な技能・知識はどれですか？",
+              "options": [
+                "A. 食品衛生と労働安全",
+                "B. 機械操作と電気工事",
+                "C. 農業技術と漁業知識",
+                "D. 経理知識と人事管理"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "「労働安全」の説明として正しいものはどれですか？",
+              "options": [
+                "A. 食品を安全に製造すること",
+                "B. 作業者の安全と健康を守ること",
+                "C. 機械を安全に保管すること",
+                "D. 食品を安全に保存すること"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "food_hygiene",
+      "name": "Sanitasi Pangan (Food Hygiene)",
+      "lessons": [
+        {
+          "lesson_id": "FH_01",
+          "title": "Dasar Sanitasi Pangan dan Gambaran HACCP",
+          "content_jp": "「食品衛生」とは、食品を食べて、人が病気にならないこと、ケガをしないことです。食品の衛生管理が十分ではない食品を食べた人は、病気になったり、ケガをします。その食品を作った会社は、信用をなくします。「一般衛生管理」とは、どんな食品を作るときも、どこの作業場でも共通しておこなわれている基本的な衛生管理です。一般衛生管理の重要事項：（１）5S （２）施設・設備・器具などの衛生管理 （３）作業者の衛生管理 （４）原材料・食品の衛生管理。「HACCPによる衛生管理」とは、一般衛生管理と重要管理点の管理（HACCPプラン）を組み合わせておこなう衛生管理です。「危害要因（ハザード）」とは、人が病気になったりケガをしたりする原因のことです。",
+          "content_id": "Sanitasi pangan berarti memastikan orang tidak sakit atau cedera setelah memakan produk yang kita buat. Manajemen sanitasi terbagi menjadi Manajemen Sanitasi Umum (Ippan Eisei Kanri) dan HACCP.\n\nPoin-poin penting:\n• Sanitasi pangan = makanan tidak membuat orang sakit / cedera\n• Perusahaan yang produknya menyebabkan sakit = kehilangan kepercayaan konsumen\n• 4 pilar manajemen sanitasi umum: ①5S ②Fasilitas/Alat ③Pekerja ④Bahan baku & produk\n• HACCP = General Hygiene + HACCP Plan (pengelolaan titik kontrol kritis)\n• 3 jenis faktor bahaya: Fisik, Kimia, Biologis",
+          "main_points": [
+            "食品衛生＝食品を食べて病気にならない・ケガをしない",
+            "衛生管理不十分な食品→消費者が病気・ケガ→会社の信用失墜",
+            "一般衛生管理の4柱：①5S ②施設設備器具の衛生管理 ③作業者の衛生管理 ④原材料食品の衛生管理",
+            "HACCPによる衛生管理＝一般衛生管理＋HACCPプラン（重要管理点の管理）",
+            "危害要因（ハザード）＝人が病気・ケガをする原因",
+            "危害要因の3種類：物理的・化学的・生物的",
+            "HACCPはHazard Analysis and Critical Control Pointの略"
+          ],
+          "vocab": [
+            {
+              "id": "shokuhin_eisei",
+              "jp": "食品衛生",
+              "indo": "kebersihan / sanitasi makanan"
+            },
+            {
+              "id": "eisei_kanri",
+              "jp": "衛生管理",
+              "indo": "manajemen sanitasi"
+            },
+            {
+              "id": "ippan_eisei_kanri",
+              "jp": "一般衛生管理",
+              "indo": "manajemen sanitasi umum"
+            },
+            {
+              "id": "haccp",
+              "jp": "HACCP",
+              "indo": "HACCP (Hazard Analysis and Critical Control Points)"
+            },
+            {
+              "id": "haccp_puran",
+              "jp": "HACCPプラン",
+              "indo": "rencana HACCP"
+            },
+            {
+              "id": "kigai_youin",
+              "jp": "危害要因",
+              "indo": "faktor bahaya / hazard"
+            },
+            {
+              "id": "hazaado",
+              "jp": "ハザード",
+              "indo": "bahaya (hazard)"
+            },
+            {
+              "id": "juuyou_kanri_ten",
+              "jp": "重要管理点（CCP）",
+              "indo": "titik kendali kritis (CCP)"
+            },
+            {
+              "id": "ccp",
+              "jp": "CCP（重要管理点）",
+              "indo": "titik kendali kritis (CCP)"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "「食品衛生」の説明として正しいものはどれですか？",
+              "options": [
+                "A. 工場をきれいに掃除すること",
+                "B. 食品を食べて、人が病気にならないこと・ケガをしないこと",
+                "C. 食品の味を良くすること",
+                "D. 食品の生産量を増やすこと"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "「危害要因（ハザード）」とは何ですか？",
+              "options": [
+                "A. 食品の栄養成分",
+                "B. 食品の製造機械",
+                "C. 人が病気になったりケガをしたりする原因",
+                "D. 食品の保存方法"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "「一般衛生管理」の重要な4つの要素として正しいものはどれですか？",
+              "options": [
+                "A. 5S・施設設備器具・作業者・原材料食品の衛生管理",
+                "B. 加熱・冷凍・殺菌・包装",
+                "C. 機械操作・品質検査・包装・出荷",
+                "D. 整理・整頓・清掃・清潔"
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_02",
+          "title": "Faktor Bahaya ①: Bahaya Fisik (Physical Hazard)",
+          "content_jp": "危害要因の中で、硬くて歯が欠ける、尖っていて口の中に傷ができるなど、物理的なことが原因で人にケガをさせるおそれがあるものを「物理的危害要因」と言います。代表的なもの：金属片・ガラス片・プラスチック片（原材料の中に入っていたり、食品製造中に機械などから入ることがある）、石（原材料の中に入っていることがある）。食品に入ってはいけないものが入ってしまったものを「異物」と言います。金属片・ガラス片・石のように硬いものを「硬質異物」と言います。虫や髪の毛・紙片のように硬くない異物は、口の中に傷ができないので物理的危害要因ではありませんが、不潔・不衛生なので食品に入らないようにしなければいけません。異物を発見したときは、すぐに作業を止めて責任者に報告します。",
+          "content_id": "Bahaya fisik adalah benda keras yang bisa melukai mulut atau tenggorokan saat dimakan, seperti serpihan logam, kaca, plastik, dan batu.\n\nPoin-poin penting:\n• Bahaya fisik = benda keras yang bisa melukai mulut/tenggorokan\n• Ibutsu = benda asing yang tidak boleh ada dalam makanan\n• Koushitsu ibutsu = logam, kaca, batu (keras)\n• Rambut, serangga, kertas = bukan bahaya fisik tapi tetap tidak boleh masuk makanan\n• Jika menemukan benda asing: HENTIKAN pekerjaan, LAPORKAN ke penanggung jawab",
+          "main_points": [
+            "物理的危害要因：硬くて口やのどを傷つけるもの",
+            "代表例：金属片・ガラス片・プラスチック片・石",
+            "異物＝食品に入ってはいけないものが入ってしまったもの",
+            "硬質異物＝金属片・ガラス片・石など硬いもの",
+            "虫・髪の毛・紙片は物理的危害要因ではないが不衛生→食品に入れてはいけない",
+            "異物発見→即作業停止→責任者に報告"
+          ],
+          "vocab": [
+            {
+              "id": "butsuri_teki_kigai_youin",
+              "jp": "物理的危害要因",
+              "indo": "bahaya fisik"
+            },
+            {
+              "id": "ibutsu",
+              "jp": "異物",
+              "indo": "benda asing / kontaminan"
+            },
+            {
+              "id": "koushitsu_ibutsu",
+              "jp": "硬質異物",
+              "indo": "benda asing keras"
+            },
+            {
+              "id": "kinzoku_hen",
+              "jp": "金属片",
+              "indo": "serpihan logam"
+            },
+            {
+              "id": "garasu_hen",
+              "jp": "ガラス片",
+              "indo": "sepotong kaca"
+            },
+            {
+              "id": "pura_hen",
+              "jp": "プラスチック片",
+              "indo": "potongan plastik"
+            },
+            {
+              "id": "konnyuu",
+              "jp": "混入",
+              "indo": "kontaminasi / tercampur masuk"
+            },
+            {
+              "id": "sekininsha",
+              "jp": "責任者",
+              "indo": "penanggung jawab"
+            },
+            {
+              "id": "houkoku",
+              "jp": "報告",
+              "indo": "pelaporan / laporan"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "「硬質異物」として正しいものはどれですか？",
+              "options": [
+                "A. 虫と髪の毛",
+                "B. 金属片・ガラス片・石",
+                "C. 紙片と繊維",
+                "D. 食品の残りかす"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "作業中に異物が入っていることを発見したとき、正しい行動はどれですか？",
+              "options": [
+                "A. 自分で取り除いて作業を続ける",
+                "B. すぐに作業を止めて責任者に報告する",
+                "C. 同僚に相談してから決める",
+                "D. 記録だけしておく"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "虫や髪の毛は物理的危害要因であるため、食品に入ってもクレームにならない。",
+              "options": [],
+              "answer": "false"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_03",
+          "title": "Faktor Bahaya ②: Bahaya Kimia (Chemical Hazard)",
+          "content_jp": "アレルギー物質やヒスタミン、じゃがいもの芽に含まれているソラニンや、殺菌剤のような薬剤などの化学物質を「化学的危害要因」と言います。①アレルギー物質（アレルゲン）：体が過剰に反応してよくない症状が出ること。症状が重いと死ぬこともある。特定原材料（表示義務）8品目：えび・かに・くるみ・小麦・そば・卵・乳・落花生（ピーナッツ）。特定原材料に準ずるもの（表示推奨）20品目（2024年3月よりマカダミアナッツ追加、まつたけ削除）。アレルギー物質を含む原材料の調理に使った機械・器具は必ず洗浄する。②ヒスタミン：悪い条件で保存された赤身魚（マグロ・アジ・イワシ・サバ）に含まれる→ヒスタミン食中毒。ヒスタミンは保存状態が悪いと増えるので、受け入れた魚はすぐに冷蔵または冷凍する。③ソラニン：じゃがいもの芽や緑色の皮に含まれる→食中毒症状（吐き気・おう吐・下痢・腹痛・頭痛）。芽や緑色の皮を取り除くことで防ぐことができる。④洗浄剤・殺菌剤：食品に残らないようによく水で洗い流す。",
+          "content_id": "Bahaya kimia mencakup alergen, histamin, solanin, deterjen, dan disinfektan yang dapat menyebabkan reaksi alergi atau keracunan.\n\nPoin-poin penting:\n• 8 bahan alergen WAJIB label: udang, kepiting, kenari, tepung terigu, soba, telur, susu, kacang tanah\n• 20 bahan alergen DISARANKAN label (per Maret 2024: macadamia nut ditambahkan, matsutake dihapus)\n• Alat masak yang terkena alergen WAJIB dicuci sebelum digunakan untuk bahan lain\n• Histamin: ikan merah segar (tuna, kembung, sarden) → simpan segera di kulkas/freezer setelah diterima\n• Solanin: tunas dan kulit hijau kentang → KUPAS/BUANG sebelum digunakan\n• Deterjen/disinfektan: bilas dengan air sampai bersih agar tidak tersisa di makanan",
+          "main_points": [
+            "化学的危害要因：アレルギー物質・ヒスタミン・ソラニン・洗浄剤・殺菌剤",
+            "特定原材料（表示義務）8品目：えび・かに・くるみ・小麦・そば・卵・乳・落花生",
+            "特定原材料に準ずるもの（推奨）20品目（2024/3：マカダミアナッツ追加、まつたけ削除）",
+            "アレルギー物質を含む器具は必ず洗浄→交差汚染防止",
+            "まな板・包丁などの調理器具は原材料別に区別して使う",
+            "ヒスタミン：赤身魚（マグロ・アジ・イワシ・サバ）→悪条件保存で増加→受け入れ後すぐ冷蔵・冷凍",
+            "ソラニン：じゃがいもの芽・緑色の皮→取り除くことで防止",
+            "洗浄剤・殺菌剤：食品に残らないよく水で洗い流す"
+          ],
+          "vocab": [
+            {
+              "id": "kagaku_teki_kigai_youin",
+              "jp": "化学的危害要因",
+              "indo": "bahaya kimia"
+            },
+            {
+              "id": "arerugii_busshitsu",
+              "jp": "アレルギー物質（アレルゲン）",
+              "indo": "bahan alergen / zat pemicu alergi"
+            },
+            {
+              "id": "arerugeen",
+              "jp": "アレルゲン",
+              "indo": "alergen"
+            },
+            {
+              "id": "tokutei_genzairyou",
+              "jp": "特定原材料",
+              "indo": "bahan baku tertentu (pemicu alergi)"
+            },
+            {
+              "id": "hisutamin",
+              "jp": "ヒスタミン",
+              "indo": "histamin"
+            },
+            {
+              "id": "soranin",
+              "jp": "ソラニン",
+              "indo": "solanin (racun kentang)"
+            },
+            {
+              "id": "senjouzai",
+              "jp": "洗浄剤",
+              "indo": "sabun cuci / deterjen pencuci"
+            },
+            {
+              "id": "sakkingai",
+              "jp": "殺菌剤",
+              "indo": "fungisida / bahan sterilisasi"
+            },
+            {
+              "id": "kousa_osen",
+              "jp": "交差汚染",
+              "indo": "kontaminasi silang"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "特定原材料（表示義務のある）8品目に含まれないものはどれですか？",
+              "options": [
+                "A. 卵",
+                "B. 乳",
+                "C. 大豆",
+                "D. くるみ"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "ヒスタミン食中毒の原因になりやすい魚はどれですか？",
+              "options": [
+                "A. タイ・ヒラメなどの白身魚",
+                "B. マグロ・アジ・イワシ・サバなどの赤身魚",
+                "C. コイ・フナなどの淡水魚",
+                "D. タコ・イカなどの軟体動物"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "ソラニンによる食中毒を防ぐ正しい方法はどれですか？",
+              "options": [
+                "A. じゃがいもを十分に加熱する",
+                "B. じゃがいもの芽や緑色の皮を取り除く",
+                "C. じゃがいもを冷凍保存する",
+                "D. じゃがいもをよく洗う"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "アレルギー物質を含む原材料の調理に使った機械や器具の正しい取り扱いはどれですか？",
+              "options": [
+                "A. そのまま次の原材料の調理に使ってもよい",
+                "B. 水でさっとすすぐだけでよい",
+                "C. 必ず洗浄しなければいけない",
+                "D. アルコールで拭くだけでよい"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_04",
+          "title": "Faktor Bahaya ③: Bahaya Biologis (Biological Hazard)",
+          "content_jp": "食中毒の原因になる細菌・ウイルス・寄生虫・カビなどを「生物的危害要因」と言います。【細菌（食中毒菌）】代表的な食中毒菌：カンピロバクター属菌（鶏肉→下痢・腹痛・発熱）、サルモネラ属菌（鶏卵・鶏肉→下痢・腹痛・発熱）、腸炎ビブリオ（魚介類→腹痛・激しい下痢）、腸管出血性大腸菌O157（牛肉・野菜→腹痛・激しい下痢・血便）、黄色ブドウ球菌（おにぎり・サンドイッチ→吐き気・おう吐・腹痛、熱に強い毒素）、セレウス菌（穀物加工品・炒飯→芽胞を作る）、ウェルシュ菌（カレー・シチュー→芽胞を作る）、ボツリヌス菌（瓶詰・レトルト→芽胞を作る・呼吸困難）。食中毒予防の3原則：①つけない（手洗い・殺菌）②増やさない（低温保管）③やっつける（加熱）。細菌が増えやすい温度：20〜50℃（特に30〜40℃が速い）。4℃以下でほとんど増えない。−15℃以下で増えなくなる。多くの食中毒菌：75℃・1分間以上で殺菌できる。【ウイルス（ノロウイルス）】牡蠣などの二枚貝に汚染リスクあり。食品の中では増えない。症状：腹痛・下痢・おう吐。対策4原則：持ち込まない・つけない・やっつける（中心温度85〜90℃・90秒以上）・拡げない。ノロウイルスはアルコール消毒では死なない。消毒：200ppmの次亜塩素酸ナトリウム溶液。【カビ】カビが生えた食品は使わない。【寄生虫（アニサキス）】サバ・イワシ・サケ・アジ・イカに寄生。70℃以上または60℃・1分間加熱、−20℃・24時間以上冷凍で殺せる。",
+          "content_id": "Bahaya biologis meliputi bakteri, virus, parasit, dan jamur penyebab keracunan makanan. Prinsip pencegahan: tidak menempelkan, tidak menggandakan, dan membunuh kuman.\n\nPoin-poin penting:\n• 3 prinsip pencegahan keracunan makanan: ①Tidak menempelkan ②Tidak menggandakan ③Membunuh\n• Suhu berbahaya: 20-50°C (paling cepat 30-40°C). Di bawah 4°C hampir tidak berkembang\n• Pasteurisasi umum: 75°C / 1 menit atau lebih\n• Norovirus: tidak mati dengan alkohol. Perlu 85-90°C / 90 detik. Disinfeksi: 200ppm natrium hipoklorit\n• Bakteri spora (Clostridium, Bacillus cereus, Botulinum): SEGERA dinginkan setelah pemanasan\n• Anisakis: 70°C keatas ATAU -20°C / 24 jam lebih\n• Pendinginan setelah masak: dalam 30 menit turunkan ke 20°C, atau dalam 60 menit ke 10°C",
+          "main_points": [
+            "食中毒予防の3原則：①つけない ②増やさない ③やっつける（殺す）",
+            "細菌が増えやすい温度：20〜50℃（特に30〜40℃）。4℃以下でほとんど増えない",
+            "多くの食中毒菌：75℃・1分間以上で殺菌可",
+            "ノロウイルス：食品中で増えない。アルコール消毒では死なない",
+            "ノロウイルスの加熱条件：中心温度85〜90℃で90秒以上",
+            "ノロウイルスの消毒：200ppm次亜塩素酸ナトリウム溶液",
+            "ノロウイルス予防4原則：持ち込まない・つけない・やっつける・拡げない",
+            "アニサキス：70℃以上加熱または−20℃・24時間以上冷凍",
+            "芽胞菌（セレウス・ウェルシュ・ボツリヌス）：加熱調理後すぐ冷却が重要",
+            "加熱後冷却：30分以内に中心温度20℃まで、または60分以内に10℃まで"
+          ],
+          "vocab": [
+            {
+              "id": "seibutsu_teki_kigai_youin",
+              "jp": "生物的危害要因",
+              "indo": "bahaya biologis"
+            },
+            {
+              "id": "shoku_chuudoku",
+              "jp": "食中毒",
+              "indo": "keracunan makanan"
+            },
+            {
+              "id": "saiken",
+              "jp": "細菌",
+              "indo": "bakteri"
+            },
+            {
+              "id": "uirusu",
+              "jp": "ウイルス",
+              "indo": "virus"
+            },
+            {
+              "id": "kiseichu",
+              "jp": "寄生虫",
+              "indo": "parasit"
+            },
+            {
+              "id": "norouirusu",
+              "jp": "ノロウイルス",
+              "indo": "Norovirus"
+            },
+            {
+              "id": "anisakisu",
+              "jp": "アニサキス",
+              "indo": "anisakis (parasit ikan)"
+            },
+            {
+              "id": "gahou",
+              "jp": "芽胞",
+              "indo": "spora (bakteri)"
+            },
+            {
+              "id": "jia_enso_san",
+              "jp": "次亜塩素酸ナトリウム",
+              "indo": "natrium hipoklorit / bleach"
+            },
+            {
+              "id": "chuushin_ondo",
+              "jp": "中心温度",
+              "indo": "temperatur inti / suhu bagian dalam"
+            },
+            {
+              "id": "reikyaku",
+              "jp": "冷却",
+              "indo": "pendinginan / cooling"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "食中毒予防の3原則として正しいものはどれですか？",
+              "options": [
+                "A. 洗う・切る・加熱する",
+                "B. つけない・増やさない・やっつける（殺す）",
+                "C. 保管・冷凍・加熱",
+                "D. 検査・殺菌・包装"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "多くの食中毒菌を殺菌できる加熱条件はどれですか？",
+              "options": [
+                "A. 中心温度60℃で1分間以上",
+                "B. 中心温度75℃で1分間以上",
+                "C. 中心温度85〜90℃で90秒間以上",
+                "D. 中心温度100℃で30秒間以上"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "ノロウイルスに関する説明として正しいものはどれですか？",
+              "options": [
+                "A. アルコール消毒で死滅する",
+                "B. 食品の中でも増える",
+                "C. アルコール消毒では死なない",
+                "D. 中心温度60℃で1分間の加熱で死滅する"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "細菌が最も増えやすい温度帯はどれですか？",
+              "options": [
+                "A. 0℃〜10℃",
+                "B. 10℃〜20℃",
+                "C. 30℃〜40℃",
+                "D. 60℃〜70℃"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "アニサキスを殺す正しい方法はどれですか？",
+              "options": [
+                "A. 70℃以上で加熱するか、−20℃で24時間以上冷凍する",
+                "B. 60℃以上で加熱するか、−10℃で12時間以上冷凍する",
+                "C. 75℃以上で加熱するか、0℃で24時間以上保管する",
+                "D. 100℃で加熱するか、−5℃で48時間以上冷凍する"
+              ],
+              "answer": "A"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_05",
+          "title": "Manajemen Sanitasi Umum ①: 5S",
+          "content_jp": "「5S」とは、「S」で始まる5つの活動を意味する言葉です。①整理（Seiri）：使わないものをなくして、使うものだけにすること。②整頓（Seiton）：器具や道具を、必要なときにすぐに取り出せるようにすること（場所を決める・並べ方を決める・名前や数量を表示する）。③清掃（Seisou）：設備や器具、道具を洗ったり磨いたり拭いたりしてきれいな状態にすること。汚れを取り除くこと。④清潔（Seiketsu）：整理・整頓・清掃をして見た目がきれいで食品衛生にも問題がないこと。設備や器具が病原性微生物に汚染されていないこと。⑤習慣付け/しつけ（Shukanzuke/Shitsuke）：決められたことを決められたとおりにできること。5Sは食品衛生のためだけでなく、労働安全（作業場でケガをしないこと）にも役立ちます。日本や世界のさまざまな工場や作業場などでおこなわれています。",
+          "content_id": "5S adalah 5 kegiatan yang dimulai dengan huruf S: Seiri (Pemilahan), Seiton (Penataan), Seisou (Pembersihan), Seiketsu (Kebersihan), Shitsuke (Pembiasaan).\n\nPoin-poin penting:\n• Seiri (整理) = Pilah: buang yang tidak perlu, sisakan yang perlu saja\n• Seiton (整頓) = Tata: simpan alat agar mudah ditemukan kapan pun dibutuhkan\n• Seisou (清掃) = Bersihkan: lap, cuci, poles fasilitas dan alat\n• Seiketsu (清潔) = Jaga kebersihan: bersih secara visual DAN bebas mikroorganisme berbahaya\n• Shitsuke (習慣付け) = Biasakan: jalankan aturan 4S di atas secara konsisten\n• 5S bermanfaat untuk SANITASI PANGAN dan KESELAMATAN KERJA",
+          "main_points": [
+            "5S = 整理・整頓・清掃・清潔・習慣付け（しつけ）",
+            "5Sは食品衛生と労働安全の両方に役立つ",
+            "清潔とは見た目がきれいなだけでなく病原性微生物に汚染されていないこと",
+            "習慣付けとは決められたことを決められたとおりに実行できること",
+            "世界中の工場・作業場でおこなわれている"
+          ],
+          "vocab": [
+            {
+              "id": "go_esu",
+              "jp": "5S",
+              "indo": "5S (Seiri, Seiton, Seisou, Seiketsu, Shitsuke)"
+            },
+            {
+              "id": "seiri",
+              "jp": "整理",
+              "indo": "memilah / Sort (5S ke-1)"
+            },
+            {
+              "id": "seiton",
+              "jp": "整頓",
+              "indo": "menata / Set in Order (5S ke-2)"
+            },
+            {
+              "id": "seisou",
+              "jp": "清掃",
+              "indo": "pembersihan / Shine (5S ke-3)"
+            },
+            {
+              "id": "seiketsu",
+              "jp": "清潔",
+              "indo": "kebersihan / bersih"
+            },
+            {
+              "id": "shuukanzuke",
+              "jp": "習慣付け（しつけ）",
+              "indo": "pembiasaan / pendisiplinan (shitsuke)"
+            },
+            {
+              "id": "shitsuke",
+              "jp": "しつけ",
+              "indo": "disiplin / Standardize (5S ke-4)"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "「整頓（Seiton）」の正しい説明はどれですか？",
+              "options": [
+                "A. 使わないものをなくして、使うものだけにすること",
+                "B. 器具や道具を、必要なときにすぐに取り出せるようにすること",
+                "C. 汚れを取り除いてきれいな状態にすること",
+                "D. 病原性微生物に汚染されていない状態にすること"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "5Sはどのような目的で役立ちますか？",
+              "options": [
+                "A. 食品衛生のためだけ",
+                "B. 労働安全のためだけ",
+                "C. 食品衛生と労働安全の両方のため",
+                "D. 生産効率を上げるためだけ"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_06",
+          "title": "Manajemen Sanitasi Umum ②: Fasilitas, Peralatan, dan Perkakas",
+          "content_jp": "施設・設備・器具などを正しく管理して危害要因が食品に含まれないようにします。清潔なものが清潔でないものに触れると汚染されます。これを「交差汚染」と言います。【区分衛生管理（ゾーニング）】食品製造工場の中は、清潔作業区域・準清潔作業区域・汚染作業区域などに区分されています。清潔作業区域：加熱・薬剤による殺菌が終わった食品を取り扱う（例：トッピング・盛り付け・包装）。準清潔作業区域：殺菌する前の原材料を取り扱う（下処理・加熱調理）。汚染作業区域：原材料の受け入れ・出荷（段ボール箱などを扱う）。汚染作業区域の人が清潔作業区域に入ってはいけない。段ボール箱のまま清潔作業区域に持ち込んではいけない。【清掃・洗浄・消毒】施設・設備は定期的に清掃して清潔にする。機械は原材料を変えたら必ず洗浄。汚れが目立たなくても毎日洗浄。分解できる部分は分解して洗浄。【薬剤の管理】薬剤は決められた場所に正しく保管。殺菌剤・洗浄剤などの薬剤を原材料と同じ保管庫に保管してはいけない。表示のないものを見つけたらすぐに責任者へ報告。",
+          "content_id": "Kontaminasi silang (kousa osen) terjadi ketika yang bersih bersentuhan dengan yang kotor. Cegah dengan zoning (ゾーニング) dan kebersihan fasilitas.\n\nPoin-poin penting:\n• Kousa osen = Kontaminasi silang: bersih bersentuhan dengan kotor → ikut terkontaminasi\n• Zona kerja: ①Zona bersih (steril, pasca pasteurisasi) ②Zona semi-bersih (pra-pasteurisasi) ③Zona kotor (penerimaan bahan baku)\n• Pekerja zona kotor DILARANG masuk zona bersih\n• Kardus/kontainer DILARANG dibawa masuk ke zona bersih (bisa mengandung tanah, serangga, mikroba)\n• Mesin: wajib dicuci setiap ganti bahan baku, wajib dicuci setiap hari (meski tampak bersih)\n• Deterjen/disinfektan: simpan terpisah dari bahan baku. WAJIB ada label nama",
+          "main_points": [
+            "交差汚染：清潔なものが清潔でないものに触れて汚染されること",
+            "区分衛生管理（ゾーニング）：清潔・準清潔・汚染作業区域の3区分",
+            "清潔作業区域：殺菌後の食品（トッピング・盛り付け・包装）",
+            "準清潔作業区域：殺菌前の原材料（下処理・加熱調理）",
+            "汚染作業区域：原材料受け入れ・出荷（段ボール扱い）",
+            "汚染区域の人は清潔区域に入らない。段ボール箱は清潔区域に持ち込まない",
+            "機械は毎日洗浄（汚れが目立たなくても）。分解できる部分は分解して洗浄",
+            "薬剤は原材料と同じ保管庫に入れない。名称表示を必ずする"
+          ],
+          "vocab": [
+            {
+              "id": "kousa_osen",
+              "jp": "交差汚染",
+              "indo": "kontaminasi silang"
+            },
+            {
+              "id": "kubun_eisei_kanri",
+              "jp": "区分衛生管理",
+              "indo": "manajemen kebersihan berdasarkan zona"
+            },
+            {
+              "id": "zooningu",
+              "jp": "ゾーニング（区分衛生管理）",
+              "indo": "zoning (manajemen kebersihan terpisah)"
+            },
+            {
+              "id": "seiketsu_sagyou_kuiki",
+              "jp": "清潔作業区域",
+              "indo": "area kerja bersih"
+            },
+            {
+              "id": "jun_seiketsu",
+              "jp": "準清潔作業区域",
+              "indo": "area kerja semi-bersih"
+            },
+            {
+              "id": "osen_sagyou_kuiki",
+              "jp": "汚染作業区域",
+              "indo": "area kerja terkontaminasi"
+            },
+            {
+              "id": "senjou",
+              "jp": "洗浄",
+              "indo": "pencucian / sanitasi"
+            },
+            {
+              "id": "shoudoku",
+              "jp": "消毒",
+              "indo": "desinfeksi / sanitasi"
+            },
+            {
+              "id": "yakuzai",
+              "jp": "薬剤",
+              "indo": "obat / zat kimia"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "「清潔作業区域」で行う作業として正しいものはどれですか？",
+              "options": [
+                "A. 原材料の受け入れ",
+                "B. 野菜の洗浄・下処理",
+                "C. 加熱調理",
+                "D. 加熱・殺菌後のトッピング・盛り付け・包装"
+              ],
+              "answer": "D"
+            },
+            {
+              "question": "「交差汚染」の正しい説明はどれですか？",
+              "options": [
+                "A. 食品に異物が混入すること",
+                "B. 清潔なものが清潔でないものに触れることで危害要因に汚染されること",
+                "C. 加熱不足によって食中毒菌が残ること",
+                "D. アレルギー物質が食品に入ること"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "殺菌剤・洗浄剤は、原材料と同じ保管庫に保管してもよい。",
+              "options": [],
+              "answer": "false"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_07",
+          "title": "Manajemen Sanitasi Umum ③: Sanitasi Pekerja",
+          "content_jp": "作業者は、異物の原因になるものや食中毒の原因になる病原性微生物を作業場に持ち込んではいけません。①健康チェック：作業を始める前に、下痢・発熱・吐き気などの症状や手指の傷がないことを確認します。症状がある人は必ず責任者へ報告。定期的な健康診断や検便を受けなければいけません。②作業服の正しい着用：更衣室で着用。作業服・マスク・ヘアーネット・帽子・靴・手袋はすべて自分のサイズに合った清潔なものを着用。爪は短く切っておく。指輪・腕輪・腕時計・アクセサリー・ヘアピン・つけまつげなどをして作業場に入ってはいけません。作業場に入る前に粘着ローラーやエアーシャワーで異物を取ります。③手洗いの正しい手順：ア.流水で汚れを落とす→イ.せっけんで30秒洗う（指の間・指の先・爪の中を特によく洗う）→ウ.流水で20秒すすぐ→エ.使い捨てペーパータオルで乾かす→オ.消毒用アルコールをすりこむ。手洗いのタイミング：作業場に入る前・作業を始める直前・トイレのあと・生の肉・魚・卵に触れたあと・汚染作業区域から非汚染作業区域に移動するとき など。④手袋の交換タイミング：原材料を変えるとき・トイレ後・手袋が破れたとき など。⑤作業場への持ち込み禁止：時計・スマートフォン・財布・写真・たばこなど。ホチキスの針・鉛筆やシャープペン（異物混入の原因）。⑥香水も持ち込み禁止（食品に臭いがつくため）。",
+          "content_id": "Pekerja tidak boleh membawa kontaminan ke area kerja. Kunci utama: cek kesehatan harian, seragam yang benar, dan cuci tangan yang tepat.\n\nPoin-poin penting:\n• Kenkou chekku (cek kesehatan): diare, demam, mual, luka di tangan → WAJIB laporkan ke penanggung jawab\n• Seragam: gunakan di ruang ganti. Semua item harus pas ukuran dan bersih\n• Kuku harus pendek. Cincin, jam, aksesori DILARANG\n• 5 langkah cuci tangan: air → sabun 30 detik → bilas air 20 detik → lap kertas → alkohol disinfektan\n• Cuci tangan: sebelum masuk area kerja, setelah toilet, setelah pegang daging/ikan/telur mentah, dll\n• Ganti sarung tangan: ganti bahan, setelah toilet, sarung tangan sobek, dll\n• Barang terlarang dibawa masuk: HP, jam, dompet, pensil/staples (bisa jadi ibutsu), parfum",
+          "main_points": [
+            "健康チェック：下痢・発熱・吐き気・手指の傷の確認→症状があれば責任者に報告",
+            "作業服は更衣室で着用。すべて清潔なサイズに合ったものを",
+            "爪は短く。指輪・時計・アクセサリー・ヘアピン等は持ち込み禁止",
+            "手洗い手順5ステップ：流水→せっけん30秒→流水20秒→ペーパータオル→アルコール消毒",
+            "手洗いタイミング：作業場前・作業直前・トイレ後・生肉魚卵に触れた後など",
+            "持ち込み禁止：スマホ・時計・財布・ホチキス針・鉛筆・香水など",
+            "手袋交換：原材料を変えるとき・トイレ後・手袋破れたとき など"
+          ],
+          "vocab": [
+            {
+              "id": "kenkou_chekku",
+              "jp": "健康チェック",
+              "indo": "pemeriksaan kesehatan harian"
+            },
+            {
+              "id": "tearai",
+              "jp": "手洗い",
+              "indo": "mencuci tangan"
+            },
+            {
+              "id": "sagyoufuku",
+              "jp": "作業服",
+              "indo": "seragam kerja / pakaian kerja"
+            },
+            {
+              "id": "heaa_netto",
+              "jp": "ヘアーネット",
+              "indo": "jaring rambut (hair net)"
+            },
+            {
+              "id": "masuku",
+              "jp": "マスク",
+              "indo": "masker"
+            },
+            {
+              "id": "kenben",
+              "jp": "検便",
+              "indo": "tes tinja / pemeriksaan feses"
+            },
+            {
+              "id": "nenchaku_rookaa",
+              "jp": "粘着ローラー",
+              "indo": "roller perekat (sticky roller)"
+            },
+            {
+              "id": "eaa_shawaa",
+              "jp": "エアーシャワー",
+              "indo": "pancuran udara / air shower"
+            },
+            {
+              "id": "shoudoku_arukoru",
+              "jp": "消毒用アルコール",
+              "indo": "alkohol disinfektan"
+            },
+            {
+              "id": "peepaa_taoru",
+              "jp": "ペーパータオル",
+              "indo": "tisu kertas / paper towel"
+            },
+            {
+              "id": "tebutsu",
+              "jp": "手袋",
+              "indo": "perhiasan / benda di tangan"
+            },
+            {
+              "id": "kouisitsu",
+              "jp": "更衣室",
+              "indo": "ruang ganti pakaian"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "正しい手洗いの手順はどれですか？",
+              "options": [
+                "A. せっけんで洗う→流水ですすぐ→ペーパータオル→アルコール消毒",
+                "B. 流水→せっけん30秒→流水20秒→ペーパータオル→アルコール消毒",
+                "C. アルコール消毒→流水で洗う→ペーパータオル",
+                "D. 流水で洗う→ペーパータオル→アルコール消毒"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "作業場に持ち込んではいけないものはどれですか？",
+              "options": [
+                "A. 作業手順書",
+                "B. 作業服",
+                "C. スマートフォン・時計・財布",
+                "D. ヘアーネット"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "作業前の健康チェックで下痢や発熱があった場合どうすべきですか？",
+              "options": [
+                "A. 軽い症状なので作業を続ける",
+                "B. 必ず責任者へ報告する",
+                "C. 薬を飲んで作業を始める",
+                "D. 同僚に伝えれば作業を続けてもよい"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_08",
+          "title": "Manajemen Sanitasi Umum ④: Sanitasi Bahan Baku dan Produk",
+          "content_jp": "【受け入れ・保管】受入検査：注文した書類と届いた原材料を照らし合わせて確認（見た目・臭い・規格・包装状態・期限・品温）。腐敗・包装破れ・消費期限切れ・保存方法が不適切なものは受け入れてはいけない。冷蔵・冷凍の原材料は長い時間室温に置かない。主な保管温度：食肉・食肉製品は10℃以下、冷凍食肉は−15℃以下、生鮮魚介類は5℃以下、冷凍水産物は−18℃以下、殻付き卵は10℃以下、液卵は8℃以下、凍結卵は−18℃以下、生鮮果実・野菜は10℃前後。食品衛生法：冷凍庫−15℃以下、冷蔵庫10℃以下。先入れ先出し。使用期限・賞味期限・消費期限を守る。消費期限を過ぎた食品は絶対に使わない。賞味期限は超えても食べられるが食品製造工場では使わない。【製造工程】加熱殺菌（中心温度で管理）→冷却（30分以内に20℃まで、または60分以内に10℃まで）→充填・包装→検査（金属探知機・X線異物検出機・微生物検査）→保管・出荷（先入れ先出し）。金属探知機：検査前後にテストピースで正常作動確認。X線異物検出機：石・ガラスなど金属探知機で見つけられない硬質異物も検出できる。",
+          "content_id": "Bahan baku yang aman menghasilkan produk yang aman. Kunci: inspeksi penerimaan, suhu penyimpanan yang tepat, dan proses produksi yang terkontrol.\n\nPoin-poin penting:\n• Inspeksi penerimaan: cek tampilan, bau, ukuran, kondisi kemasan, tanggal kadaluwarsa, suhu\n• TIDAK MENERIMA: busuk, kemasan robek, lewat tanggal konsumsi, kondisi penyimpanan tidak tepat\n• SHOUHIKIGEN (消費期限) lewat = TIDAK BOLEH DIGUNAKAN SAMA SEKALI (risiko keracunan tinggi)\n• SHOUMIKIGEN (賞味期限) lewat = masih bisa dimakan tapi pabrik tidak menggunakannya\n• FIFO (先入れ先出し): barang lama keluar duluan\n• Hukum sanitasi: kulkas ≤10°C, freezer ≤-15°C\n• Pendinginan pasca masak: 30 menit → 20°C, atau 60 menit → 10°C\n• Metal detector: cek dengan test piece sebelum DAN setelah produksi\n• X-ray: bisa deteksi batu, kaca (yang tidak terdeteksi metal detector)",
+          "main_points": [
+            "受入検査：見た目・臭い・規格・包装状態・期限・品温の確認",
+            "腐敗・消費期限切れ・包装破れは受け入れない",
+            "消費期限を過ぎた食品は絶対に使わない（食中毒リスク高）",
+            "賞味期限を過ぎた食品も食品製造工場では一般的に使わない",
+            "先入れ先出し：先に納品されたものから先に使う",
+            "食品衛生法：冷凍庫は−15℃以下、冷蔵庫は10℃以下",
+            "加熱後の冷却：30分以内に中心温度20℃まで、または60分以内に10℃まで",
+            "金属探知機：テストピースで正常作動確認してから検査開始",
+            "X線異物検出機：石・ガラスなど金属探知機で見つけられない硬質異物も検出可能"
+          ],
+          "vocab": [
+            {
+              "id": "ukeiro_kensa",
+              "jp": "受入検査",
+              "indo": "inspeksi penerimaan / pemeriksaan barang masuk"
+            },
+            {
+              "id": "shoumikigen",
+              "jp": "賞味期限",
+              "indo": "tanggal kedaluwarsa / best before"
+            },
+            {
+              "id": "shouhikigen",
+              "jp": "消費期限",
+              "indo": "tanggal kadaluarsa (consume by)"
+            },
+            {
+              "id": "sakiire_sakidashi",
+              "jp": "先入れ先出し",
+              "indo": "first in, first out (FIFO)"
+            },
+            {
+              "id": "kanetsu_sakkin",
+              "jp": "加熱殺菌",
+              "indo": "sterilisasi panas / pasteurisasi"
+            },
+            {
+              "id": "chuushin_ondo",
+              "jp": "中心温度",
+              "indo": "temperatur inti / suhu bagian dalam"
+            },
+            {
+              "id": "reikyaku",
+              "jp": "冷却",
+              "indo": "pendinginan / cooling"
+            },
+            {
+              "id": "kinzoku_tanchi_ki",
+              "jp": "金属探知機",
+              "indo": "detektor logam / metal detector"
+            },
+            {
+              "id": "ekkusu_sen_kenshutsu",
+              "jp": "X線異物検出機",
+              "indo": "deteksi sinar-X"
+            },
+            {
+              "id": "tesuto_piisu",
+              "jp": "テストピース",
+              "indo": "benda uji / test piece"
+            },
+            {
+              "id": "juuten",
+              "jp": "充填",
+              "indo": "pengisian / filling"
+            },
+            {
+              "id": "housou",
+              "jp": "包装",
+              "indo": "kemasan / pengemasan"
+            },
+            {
+              "id": "reizoukou",
+              "jp": "冷蔵庫",
+              "indo": "kulkas / lemari pendingin"
+            },
+            {
+              "id": "reitouko",
+              "jp": "冷凍庫",
+              "indo": "freezer / lemari pembeku"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "食品衛生法で定められた冷蔵庫の保管温度は何℃以下ですか？",
+              "options": [
+                "A. 5℃以下",
+                "B. 8℃以下",
+                "C. 10℃以下",
+                "D. 15℃以下"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "「先入れ先出し」の正しい説明はどれですか？",
+              "options": [
+                "A. 新しく受け入れたものから先に使う",
+                "B. 先に納品されたものから先に使う",
+                "C. 賞味期限が長いものから先に使う",
+                "D. 量が多いものから先に使う"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "加熱調理が終わった食品の正しい冷却方法はどれですか？",
+              "options": [
+                "A. 加熱が終わってから1時間以内に中心温度を20℃まで下げる",
+                "B. 加熱が終わってから30分以内に中心温度を20℃まで下げる、または60分以内に10℃まで下げる",
+                "C. 加熱が終わってから2時間以内に室温まで下げる",
+                "D. 加熱が終わったあと自然に冷やす"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "消費期限を過ぎた食品でも、食品製造工場では使うことができる。",
+              "options": [],
+              "answer": "false"
+            }
+          ]
+        },
+        {
+          "lesson_id": "FH_09",
+          "title": "Manajemen Sanitasi Berbasis HACCP",
+          "content_jp": "HACCPは「Hazard Analysis and Critical Control Point（危害要因分析重要管理点）」の略です。【HACCPの7原則】原則1：危害要因分析（ハザード分析）→どのような危害要因があってどう管理するかを分析。原則2：重要管理点（CCP）の決定→一般衛生管理だけでは危害要因を含まない食品を製造できない場合に、その危害要因を取り除くためのCCPを決める。原則3：管理基準の設定→CCPの管理基準を決める。原則4：監視（モニタリング）の方法の設定→CCPの管理の状況を監視する方法を決める。原則5：改善措置の設定→逸脱していた場合、基準どおりにするためにはどうするか、それまでに作った食品はどうするかを決める。原則6：検証方法の設定→原則5までに決めたやり方が危害要因の除去・低減に有効であることを確認する。原則7：記録→原則1〜6までに決めた内容を文書で記録。【重要管理点（CCP）となる代表的な5工程】①加熱殺菌 ②加熱殺菌したあとの冷却 ③薬剤による殺菌 ④金属探知機 ⑤X線異物検出機。【管理基準からの逸脱】決めた管理基準が実際には守られていないことを「逸脱」と言います。逸脱を知ったときはすぐに責任者へ報告。改善措置をおこなうときは必ず責任者の指示に従う。【記録の原則】確認したときにすぐ記録。後でまとめて記録してはいけない。事実でないことを記録することは絶対にしてはいけない。自分だけの判断で修正してもいけない。",
+          "content_id": "HACCP adalah sistem manajemen keamanan pangan berbasis analisis bahaya dan pengendalian titik kritis (CCP). Terdiri dari 7 prinsip yang harus dijalankan secara sistematis.\n\nPoin-poin penting:\n• 7 Prinsip HACCP: ①Analisis bahaya → ②Tentukan CCP → ③Tetapkan batas kritis → ④Monitoring → ⑤Tindakan korektif → ⑥Verifikasi → ⑦Pencatatan\n• 5 CCP utama: ①Pasteurisasi ②Pendinginan pasca-pasteurisasi ③Disinfeksi kimia ④Metal detector ⑤X-ray detector\n• Deviasi (逸脱) = kondisi tidak sesuai batas kritis → SEGERA lapor penanggung jawab\n• Tindakan korektif (改善措置): perbaiki kondisi + tentukan nasib produk yang sudah dibuat (buang/produksi ulang)\n• Pencatatan: catat SAAT ITU JUGA. Tidak boleh catat belakangan\n• TIDAK BOLEH mencatat hal yang tidak sesuai fakta. Tidak boleh ubah catatan sendiri",
+          "main_points": [
+            "HACCP = Hazard Analysis and Critical Control Point（危害要因分析重要管理点）",
+            "HACCPの7原則：①危害要因分析→②CCP決定→③管理基準設定→④モニタリング→⑤改善措置→⑥検証→⑦記録",
+            "代表的なCCP5工程：①加熱殺菌 ②冷却 ③薬剤殺菌 ④金属探知機 ⑤X線異物検出機",
+            "管理基準からの逸脱→すぐに責任者へ報告",
+            "記録はその場ですぐに。後でまとめて書いてはいけない",
+            "事実でないことを記録することは絶対にしてはいけない"
+          ],
+          "vocab": [
+            {
+              "id": "haccp",
+              "jp": "HACCP",
+              "indo": "HACCP (Hazard Analysis and Critical Control Points)"
+            },
+            {
+              "id": "kigai_youin_bunseki",
+              "jp": "危害要因分析",
+              "indo": "analisis bahaya (hazard analysis)"
+            },
+            {
+              "id": "hazaado_bunseki",
+              "jp": "ハザード分析",
+              "indo": "analisis hazard"
+            },
+            {
+              "id": "ccp",
+              "jp": "CCP（重要管理点）",
+              "indo": "titik kendali kritis (CCP)"
+            },
+            {
+              "id": "juuyou_kanri_ten",
+              "jp": "重要管理点（CCP）",
+              "indo": "titik kendali kritis (CCP)"
+            },
+            {
+              "id": "kanri_kijun",
+              "jp": "管理基準",
+              "indo": "standar pengelolaan / critical limit"
+            },
+            {
+              "id": "monitaringu",
+              "jp": "監視（モニタリング）",
+              "indo": "pemantauan (monitoring)"
+            },
+            {
+              "id": "kaizen_sochi",
+              "jp": "改善措置",
+              "indo": "tindakan perbaikan / corrective action"
+            },
+            {
+              "id": "itsudatsu",
+              "jp": "逸脱",
+              "indo": "penyimpangan / deviasi"
+            },
+            {
+              "id": "kiroku",
+              "jp": "記録",
+              "indo": "catatan / rekaman data"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "HACCPの7原則の正しい順番はどれですか？",
+              "options": [
+                "A. 危害要因分析→CCP決定→管理基準設定→モニタリング→改善措置→検証→記録",
+                "B. CCP決定→危害要因分析→管理基準設定→記録→モニタリング→改善措置→検証",
+                "C. 管理基準設定→危害要因分析→CCP決定→モニタリング→記録→検証→改善措置",
+                "D. 危害要因分析→管理基準設定→CCP決定→改善措置→モニタリング→検証→記録"
+              ],
+              "answer": "A"
+            },
+            {
+              "question": "食品製造で重要管理点（CCP）となる代表的な工程に含まれないものはどれですか？",
+              "options": [
+                "A. 加熱殺菌",
+                "B. 金属探知機",
+                "C. 原材料の受け入れ検査",
+                "D. X線異物検出機"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "「管理基準からの逸脱」が発生したとき、まず何をすべきですか？",
+              "options": [
+                "A. 自分の判断で対応して作業を続ける",
+                "B. すぐに責任者へ報告する",
+                "C. 記録だけして後で報告する",
+                "D. 同僚に相談してから決める"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "HACCPの記録は後でまとめて記録してもよい。",
+              "options": [],
+              "answer": "false"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "labor_safety",
+      "name": "Keselamatan Kerja (Labor Safety)",
+      "lessons": [
+        {
+          "lesson_id": "LS_01",
+          "title": "Kecelakaan Kerja di Industri Makanan dan Minuman",
+          "content_jp": "すべての製造業の中で未熟練作業者（経験が3年未満）の死傷者が最も多いのは食料品製造業です。食料品製造業で起こる労働災害に占める未熟練作業者の割合は約半分です。食品製造工場で起きる労働災害は、多い順に①転倒（31.3%）②はさまれ・巻き込まれ（19.2%）③切れ・こすれ（10.8%）④墜落・転落（8.4%）。この上位3種類で約60%になります。【主な労働災害8種類】①転倒：走って滑ったり物につまずく→頭や背中を打ったり骨折。②はさまれ・巻き込まれ：機械に手を入れるとき→指・腕の骨折、死亡。③切れ・こすれ：包丁・カッターなどの切る機械→手の切断。④落ちる：脚立・はしごからの転落→捻挫・骨折。⑤やけど：熱い湯・食品を扱うとき→手足・顔・全身のやけど。⑥腰痛：重いものを持ち上げるとき→長期間治らない場合も。⑦熱中症：気温・湿度が高い場所での長時間作業→体温調節ができなくなり死亡することも。⑧激突：フォークリフトとぶつかる→死亡することも。",
+          "content_id": "Industri makanan memiliki angka kecelakaan pekerja tidak berpengalaman tertinggi. 3 jenis kecelakaan terbanyak: terpeleset, terjepit mesin, dan terluka alat pemotong.\n\nPoin-poin penting:\n• Industri makanan = kecelakaan pekerja baru (< 3 tahun) TERBANYAK di semua industri manufaktur\n• Proporsi pekerja tidak berpengalaman dalam kecelakaan = sekitar 50%\n• 3 kecelakaan terbanyak: ①Terpeleset (31.3%) ②Terjepit/tergulung mesin (19.2%) ③Luka potong/gosok (10.8%)\n• 3 jenis teratas = sekitar 60% dari semua kecelakaan\n• 8 jenis kecelakaan: terpeleset, terjepit, luka potong, jatuh, luka bakar, sakit punggung, heat stroke, tertabrak forklift",
+          "main_points": [
+            "食料品製造業は全製造業中で未熟練作業者の死傷者が最も多い",
+            "未熟練作業者（経験3年未満）の労働災害割合は約半分",
+            "労働災害の上位3種類：①転倒（31.3%）②はさまれ巻き込まれ（19.2%）③切れこすれ（10.8%）",
+            "上位3種類で全労働災害の約60%",
+            "主な労働災害8種類：転倒・はさまれ巻き込まれ・切れこすれ・落ちる・やけど・腰痛・熱中症・激突"
+          ],
+          "vocab": [
+            {
+              "id": "roudou_saigai",
+              "jp": "労働災害",
+              "indo": "kecelakaan industri / kecelakaan kerja"
+            },
+            {
+              "id": "mijukuren_sagyousha",
+              "jp": "未熟練作業者",
+              "indo": "pekerja tidak terampil / pekerja baru"
+            },
+            {
+              "id": "tentou",
+              "jp": "転倒",
+              "indo": "jatuh / terjatuh"
+            },
+            {
+              "id": "hasamare",
+              "jp": "はさまれ",
+              "indo": "terjepit"
+            },
+            {
+              "id": "makikome",
+              "jp": "巻き込まれ",
+              "indo": "terlibat / terjepit mesin berputar"
+            },
+            {
+              "id": "kire_kosure",
+              "jp": "切れ・こすれ",
+              "indo": "terpotong / tergores"
+            },
+            {
+              "id": "necchuushou",
+              "jp": "熱中症",
+              "indo": "serangan panas / heat stroke"
+            },
+            {
+              "id": "gekitotsu",
+              "jp": "激突",
+              "indo": "benturan keras / tabrakan"
+            },
+            {
+              "id": "youtsuu",
+              "jp": "腰痛",
+              "indo": "nyeri punggung bawah / sakit pinggang"
+            },
+            {
+              "id": "yakedo",
+              "jp": "やけど",
+              "indo": "terbakar / luka bakar"
+            },
+            {
+              "id": "fookulift",
+              "jp": "フォークリフト",
+              "indo": "forklift"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "食品製造工場で最も多く発生する労働災害の種類はどれですか？",
+              "options": [
+                "A. はさまれ・巻き込まれ",
+                "B. 転倒",
+                "C. 切れ・こすれ",
+                "D. 墜落・転落"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "「未熟練作業者」とは経験が何年未満の作業者ですか？",
+              "options": [
+                "A. 1年未満",
+                "B. 2年未満",
+                "C. 3年未満",
+                "D. 5年未満"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "食品製造工場の労働災害で上位3種類（転倒・はさまれ・切れこすれ）は全体の約何%を占めますか？",
+              "options": [
+                "A. 約30%",
+                "B. 約45%",
+                "C. 約60%",
+                "D. 約80%"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "lesson_id": "LS_02",
+          "title": "Mencegah Kecelakaan: Pakaian, 5S, Prosedur Kerja, Penggunaan Mesin",
+          "content_jp": "労働災害をなくすために大切なこと：①5S（転倒災害の危険が減る・感染症の予防）。②正しい服装：作業服（動きやすく体の大きさに合ったもの）・安全保護具を正しく着用。安全保護具の種類：ヘルメット（頭部保護）、保護メガネ（眼のケガ防止）、ゴム手袋（やけど防止）、ミトン手袋（やけど防止・高温のものに触るとき）、メクセル手袋・くさり手袋（指の切傷防止・刃物を使う作業）、耐熱エプロン（やけど防止）、耳栓（防音）、安全靴（足の圧傷防止）、カバー付き長靴（滑り防止・やけど防止）。③作業手順書とルールを守る：走らない・決められた通路を歩く・コンベアの下をくぐらない・指差呼称で確認する・フォークリフトが通るときは運転する人と目を合わせる・共同作業は連絡・合図を確実に。④機械を正しく使う：始業前点検（汚れ・音・振動・刃のかけ・安全装置の作動確認）→電源が入っている状態（運転中）で手を入れない→非常停止ボタンを使う→安全装置（フェールセーフ：機械が自動的に止まる仕組み）・フールプルーフ（人が間違えても災害にならない仕組み）を使う→コンベアを修理するときは必ず電源スイッチを切る→定期的な点検と整備。⑤洗剤・薬剤の注意：塩素系洗剤と酸性洗剤を混ぜると有毒な塩素ガスが発生して危険。消毒用アルコールは高温になる機械の近くに置いてはいけない。",
+          "content_id": "Pencegahan kecelakaan membutuhkan pakaian yang tepat, lingkungan kerja yang teratur (5S), mematuhi prosedur, dan menggunakan mesin dengan benar.\n\nPoin-poin penting:\n• APD (Alat Pelindung Diri) sesuai pekerjaan: helm, kacamata, sarung tangan karet/anti-potong, sepatu safety dll\n• DILARANG masukkan tangan ke mesin yang sedang berjalan (meski terlihat berhenti, mungkin masih berputar di dalam)\n• Mesin bermasalah → tombol berhenti darurat (hijou teishi botan) → lapor penanggung jawab\n• Fail safe: mesin berhenti otomatis saat ada masalah\n• Fool proof: desain yang mencegah kecelakaan meski ada kesalahan manusia (misal: penutup pengaman)\n• Perbaikan konveyor: WAJIB matikan saklar listrik terlebih dulu\n• Deterjen klorin + deterjen asam = GAS KLORIN BERACUN → BERBAHAYA\n• Alkohol disinfektan DILARANG dekat mesin bersuhu tinggi (risiko kebakaran)",
+          "main_points": [
+            "作業場の中では走らない",
+            "フォークリフトが通るときは運転する人と目を合わせて確認しながら歩く",
+            "作業や機械のスイッチを入れる前には指差呼称で確認する",
+            "動いている機械には絶対に手を入れない",
+            "機械のトラブル時：まず非常停止ボタンを押して機械を止める",
+            "コンベアを修理するときは必ず電源スイッチを切る",
+            "フェールセーフ：機械が自動的に止まる仕組み",
+            "フールプルーフ：人が間違えても災害にならない仕組み（安全カバー）",
+            "塩素系洗剤＋酸性洗剤を混ぜると→有毒な塩素ガス発生→危険",
+            "消毒用アルコールは高温機械の近くに置いてはいけない"
+          ],
+          "vocab": [
+            {
+              "id": "yubisashi_koshou",
+              "jp": "指差呼称",
+              "indo": "menunjuk dan memanggil / pointing and calling"
+            },
+            {
+              "id": "anzen_hogogu",
+              "jp": "安全保護具",
+              "indo": "peralatan perlindungan keselamatan / APD"
+            },
+            {
+              "id": "shigyou_mae_tenken",
+              "jp": "始業前点検",
+              "indo": "pemeriksaan sebelum mulai kerja"
+            },
+            {
+              "id": "hijou_teishi_botan",
+              "jp": "非常停止ボタン",
+              "indo": "tombol berhenti darurat"
+            },
+            {
+              "id": "anzen_souchi",
+              "jp": "安全装置",
+              "indo": "perangkat keselamatan / safety device"
+            },
+            {
+              "id": "feeru_seefu",
+              "jp": "フェールセーフ",
+              "indo": "fail-safe / aman saat gagal"
+            },
+            {
+              "id": "fuuru_puruufu",
+              "jp": "フールプルーフ",
+              "indo": "foolproof / anti-salah"
+            },
+            {
+              "id": "anzen_hyoushiki",
+              "jp": "安全標識",
+              "indo": "rambu keselamatan"
+            },
+            {
+              "id": "sagyou_tejunsho",
+              "jp": "作業手順書",
+              "indo": "prosedur kerja / SOP"
+            },
+            {
+              "id": "helumetto",
+              "jp": "ヘルメット",
+              "indo": "helm keselamatan"
+            },
+            {
+              "id": "hogo_megane",
+              "jp": "保護メガネ",
+              "indo": "kacamata pelindung"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "機械がトラブルで止まったとき、最初にすべき正しい行動はどれですか？",
+              "options": [
+                "A. すぐに手を入れてつまったものを取り除く",
+                "B. まず機械を止める（非常停止ボタンを押す）",
+                "C. 同僚に相談してから対応する",
+                "D. そのままにしてしばらく様子を見る"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "塩素系洗剤と酸性洗剤を同時に混ぜて使うことは問題ない。",
+              "options": [],
+              "answer": "false"
+            },
+            {
+              "question": "「フェールセーフ（fail safe）」の正しい説明はどれですか？",
+              "options": [
+                "A. 人がうっかりしても災害にならないように工夫された仕組み",
+                "B. 部品が壊れたり製品がつまったりしたとき機械が自動的に止まる仕組み",
+                "C. 安全標識を正しく表示する仕組み",
+                "D. 作業者が安全装置を外せないようにする仕組み"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "「フールプルーフ（fool proof）」の正しい説明はどれですか？",
+              "options": [
+                "A. 機械が自動的に止まる仕組み",
+                "B. 人がうっかりしたり思い違いをしたりしても災害にならないように工夫された仕組み",
+                "C. 非常停止ボタンを押しやすくする仕組み",
+                "D. 機械の電源を自動的に切る仕組み"
+              ],
+              "answer": "B"
+            }
+          ]
+        },
+        {
+          "lesson_id": "LS_03",
+          "title": "Respons terhadap Keadaan Darurat dan Kecelakaan Kerja",
+          "content_jp": "【異常事態が起こったとき】①何が起こっているかを確認し、周りにいる責任者や作業者に大きな声で知らせます。②自分で判断できるときは、必要に応じて緊急停止ボタンを押すなどして動いている機械を止めます。③責任者の指示に従って対応します。一人で勝手な行動をしてはいけません。【労働災害が起こったとき】慌てて近づいてはいけません。助けようとした人も労働災害にあってしまうことがあります。これを「二次災害」と言います。対応は「異常事態が起きたとき」と同じです。①確認して大声で周知→②機械を止める→③責任者の指示に従う。正しく行動するためには日頃から訓練することが重要です（火災の避難訓練・緊急停止ボタンを押す訓練など）。",
+          "content_id": "Saat terjadi keadaan darurat atau kecelakaan: konfirmasi situasi → beritahu orang sekitar → hentikan mesin → ikuti instruksi penanggung jawab. Jangan bertindak sendiri.\n\nPoin-poin penting:\n• 3 langkah respons darurat: ①Konfirmasi & beritahu dengan suara keras ②Hentikan mesin ③Ikuti instruksi penanggung jawab\n• Jangan bertindak sendiri (hitori de katte na kodo wa ikenai)\n• Jangan langsung berlari mendekati korban → risiko NIJI SAIGAI (kecelakaan sekunder)\n• Niji saigai = orang yang mencoba menolong ikut terkena kecelakaan yang sama\n• Latihan rutin penting: latihan evakuasi kebakaran, latihan pencet tombol darurat",
+          "main_points": [
+            "異常を発見したら：①確認・大声で周知→②機械を止める→③責任者の指示に従う",
+            "一人で勝手な行動をしてはいけない",
+            "ケガをした人を見つけても慌てて近づいてはいけない（二次災害の危険）",
+            "二次災害：助けようとした人も同じ労働災害にあってしまうこと",
+            "日頃から訓練することが重要（火災避難訓練・緊急停止ボタン訓練など）"
+          ],
+          "vocab": [
+            {
+              "id": "niji_saigai",
+              "jp": "二次災害",
+              "indo": "bencana sekunder / secondary disaster"
+            },
+            {
+              "id": "kinkyuu_teishi_botan",
+              "jp": "緊急停止ボタン",
+              "indo": "tombol berhenti darurat"
+            },
+            {
+              "id": "hinan_kunren",
+              "jp": "避難訓練",
+              "indo": "latihan evakuasi / fire drill"
+            },
+            {
+              "id": "ijou_jitai",
+              "jp": "異常事態",
+              "indo": "situasi tidak normal / situasi darurat"
+            },
+            {
+              "id": "sekininsha",
+              "jp": "責任者",
+              "indo": "penanggung jawab"
+            },
+            {
+              "id": "houkoku",
+              "jp": "報告",
+              "indo": "pelaporan / laporan"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "労働災害が起こって倒れている人を見つけたとき、最初にすべき正しい行動はどれですか？",
+              "options": [
+                "A. すぐに近づいて助け起こす",
+                "B. 慌てて近づかず、何が起こっているか確認して周りに大きな声で知らせる",
+                "C. 救急車を呼んでから一人で処置する",
+                "D. 写真を撮って記録する"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "「二次災害」とはどういう意味ですか？",
+              "options": [
+                "A. 同じ場所で2回連続して事故が起こること",
+                "B. 2人の作業者が同時に怪我をすること",
+                "C. 助けようとした人も同じ労働災害にあってしまうこと",
+                "D. 機械が2台連続して故障すること"
+              ],
+              "answer": "C"
+            }
+          ]
+        },
+        {
+          "lesson_id": "LS_04",
+          "title": "Meningkatkan Kepekaan Bahaya: Near-Miss dan KYT",
+          "content_jp": "未熟練作業者は、危険に気がつく力をつけることが労働災害の予防のために大切です。①労働災害の事例を学ぶ：社内・社外の事例を良く学び、同じ災害を起こさないように気をつけます。②ヒヤリ・ハット活動：「ヒヤリとした」「ハッとした」経験を報告・共有する活動です。【ハインリッヒの法則】1件の大きな労働災害が起こるまでに、同じ原因で軽いケガや小さな災害が29件、ケガはなく災害にならなかったヒヤリ・ハットが300件起こっているという法則。ヒヤリ・ハットが少なくなれば大きな労働災害が起こりにくくなります。大切なことは、小さなことでも「たいしたことがない」と思わずに報告することです。③危険予知訓練（KYT：Kiken Yochi Training）：実際に体験しなくても作業場のどこに、どのような危険があるか気がつくようになるための訓練。潜在的な危険を考え、その危険から起こる労働災害を防ぐ力をつける訓練です。主な労働災害ヒヤリハット事例：転倒（床が濡れていて滑る）・はさまれ（運転中の機械に手を入れる）・切れこすれ（スライサーで指を切る）・落ちる（脚立の固定忘れ）・やけど（高温の鉄板を素手で運ぼうとする）・腰痛（不安定な姿勢で重いものを持ち上げる）・熱中症（高温多湿の場所で休憩なく作業する）・激突（フォークリフトが一時停止せずに通過する）。",
+          "content_id": "Kembangkan kemampuan mendeteksi bahaya sebelum terjadi kecelakaan. Gunakan aktivitas hiyari-hatto dan KYT untuk belajar dari pengalaman.\n\nPoin-poin penting:\n• Hukum Heinrich: 1 kecelakaan besar = 29 kecelakaan kecil + 300 near-miss (hiyari-hatto)\n• Kurangi near-miss → kecelakaan besar berkurang\n• Hiyari-hatto: laporkan kejadian 'hampir celaka', sekecil apapun. Diskusikan bersama seluruh tim\n• KYT (Kiken Yochi Training / 危険予知訓練): latihan mengenali bahaya SEBELUM terjadi\n• Slogan KYT: '...かもしれない' (mungkin saja...) → bangun kesadaran potensi bahaya\n• Contoh near-miss: lantai licin, forklift keluar tanpa berhenti, air panas masuk sepatu bot, dll",
+          "main_points": [
+            "ハインリッヒの法則：1件の重大事故 ＝ 29件の軽微な事故 ＋ 300件のヒヤリハット",
+            "ヒヤリハットが少なくなれば大きな労働災害が起こりにくくなる",
+            "ヒヤリハット活動：小さなことでも報告→全員で共有→原因と対策を考える→工場を改善",
+            "KYT（危険予知訓練）= Kiken Yochi Training：実際に体験しなくても危険に気がつける力をつける",
+            "かもしれない意識：「熱い湯が入ってやけどするかもしれない」等"
+          ],
+          "vocab": [
+            {
+              "id": "hiyari_hatto",
+              "jp": "ヒヤリ・ハット",
+              "indo": "hampir celaka (near-miss)"
+            },
+            {
+              "id": "heinricchi_housoku",
+              "jp": "ハインリッヒの法則",
+              "indo": "Hukum Heinrich"
+            },
+            {
+              "id": "kyt",
+              "jp": "危険予知訓練（KYT）",
+              "indo": "pelatihan prediksi bahaya (KYT)"
+            },
+            {
+              "id": "senzai_kiken",
+              "jp": "潜在的な危険",
+              "indo": "bahaya tersembunyi / bahaya laten"
+            },
+            {
+              "id": "roudou_saigai_jirei",
+              "jp": "労働災害の事例",
+              "indo": "kasus kecelakaan kerja"
+            },
+            {
+              "id": "kaizen",
+              "jp": "改善",
+              "indo": "perbaikan / kaizen"
+            }
+          ],
+          "quiz": [
+            {
+              "question": "ハインリッヒの法則によると、1件の重大事故が起こるまでにヒヤリハット（ケガなし）は何件起こっているとされていますか？",
+              "options": [
+                "A. 29件",
+                "B. 100件",
+                "C. 300件",
+                "D. 500件"
+              ],
+              "answer": "C"
+            },
+            {
+              "question": "「KYT」とは何の略ですか？",
+              "options": [
+                "A. 健康安全トレーニング（Kenkou Yobo Training）",
+                "B. 危険予知訓練（Kiken Yochi Training）",
+                "C. 機械安全点検（Kikai Anzen Tenken）",
+                "D. 工場衛生管理（Koujou Yobi Training）"
+              ],
+              "answer": "B"
+            },
+            {
+              "question": "ヒヤリ・ハット活動では、小さなことはたいしたことがないので報告しなくてよい。",
+              "options": [],
+              "answer": "false"
+            },
+            {
+              "question": "「転倒」災害のヒヤリハット事例に対する正しい対策はどれですか？",
+              "options": [
+                "A. 走って素早く移動する",
+                "B. 床が濡れている場合は床の水をきちんとふき取る",
+                "C. 両手がふさがっていてもゆっくり歩けばよい",
+                "D. 通路に物を置いても問題ない"
+              ],
+              "answer": "B"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
