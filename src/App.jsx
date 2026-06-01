@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from 'react-router-dom'
+import { useApp } from './context/AppContext'
 import BottomNav    from './components/BottomNav'
 import HomePage     from './pages/HomePage'
 import LessonPage   from './pages/LessonPage'
@@ -28,9 +29,6 @@ function ErrorScreen({ message }) {
     </div>
   )
 }
-
-// Routes that DO NOT show bottom nav
-const FULLSCREEN_ROUTES = ['/flashcard', '/quiz']
 
 export default function App() {
   const { loading, error } = useApp()
