@@ -1,0 +1,26 @@
+{
+  "name": "SSW PM Master - Belajar Bahasa Jepang",
+  "short_name": "SSW PM",
+  "description": "Aplikasi belajar SSW PM untuk persiapan ujian Tokutei Ginou industri makanan",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f8f7f5",
+  "theme_color": "#1a1a2e",
+  "lang": "id",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "screenshots": []
+}
