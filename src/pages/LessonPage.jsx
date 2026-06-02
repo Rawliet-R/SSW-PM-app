@@ -1,6 +1,29 @@
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+
+// Audio helper using Web Speech API
+function speakJapanese(text) {
+  if (!window.speechSynthesis) return
+  window.speechSynthesis.cancel()
+  const utter = new SpeechSynthesisUtterance(text)
+  utter.lang = 'ja-JP'
+  utter.rate = 0.85
+  window.speechSynthesis.speak(utter)
+}
+
+// Furigana component
+function Furigana({ jp, reading }) {
+  if (!reading) return <span className="vocab-jp">{jp}</span>
+  return (
+    <ruby style={{ fontFamily: 'var(--font-jp)', fontSize: '1.1rem', fontWeight: 700 }}>
+      {jp}
+      <rt style={{ fontSize: '0.55rem', fontWeight: 400, color: 'var(--text-muted)', letterSpacing: '0.03em' }}>
+        {reading}
+      </rt>
+    </ruby>
+  )
+}
 
 // ── Tab: Materi ───────────────────────────────────────────────────────────────
 function TabMateri({ lesson }) {
@@ -8,7 +31,6 @@ function TabMateri({ lesson }) {
 
   return (
     <div style={{ paddingBottom: '16px' }}>
-      {/* JP / ID toggle */}
       <div style={{ marginBottom: '16px' }}>
         <div className="tabs" style={{ maxWidth: '220px' }}>
           <button className={`tab-btn${lang === 'id' ? ' active' : ''}`} onClick={() => setLang('id')}>
@@ -31,7 +53,7 @@ function TabMateri({ lesson }) {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {lesson.main_points.map((pt, i) => (
                   <div key={i} className="key-point">
-                    <div className="key-point-dot" />
+                    <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--indigo)', marginTop: 6, flexShrink: 0 }} />
                     <p style={{ fontSize: '13.5px', fontFamily: 'var(--font-jp)', lineHeight: '1.7', color: 'var(--text-primary)' }}>
                       {pt}
                     </p>
@@ -52,7 +74,7 @@ function TabMateri({ lesson }) {
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
                 {lesson.main_points.map((pt, i) => (
                   <div key={i} className="key-point">
-                    <div className="key-point-dot" />
+                    <div style={{ width: 8, height: 8, borderRadius: '50%', background: 'var(--indigo)', marginTop: 6, flexShrink: 0 }} />
                     <p style={{ fontSize: '13.5px', fontFamily: 'var(--font-jp)', lineHeight: '1.7', color: 'var(--text-primary)' }}>
                       {pt}
                     </p>
@@ -70,6 +92,13 @@ function TabMateri({ lesson }) {
 // ── Tab: Kosakata ─────────────────────────────────────────────────────────────
 function TabKosakata({ lesson }) {
   const { bookmarks, toggleBookmarkVocab } = useApp()
+  const [speaking, setSpeaking] = useState(null)
+
+  const handleSpeak = useCallback((v) => {
+    setSpeaking(v.id)
+    speakJapanese(v.jp)
+    setTimeout(() => setSpeaking(null), 1500)
+  }, [])
 
   if (!lesson.vocab?.length) {
     return <div style={{ textAlign: 'center', padding: '40px', color: 'var(--text-muted)' }}>Tidak ada kosakata</div>
@@ -80,31 +109,56 @@ function TabKosakata({ lesson }) {
       <div className="card" style={{ overflow: 'hidden' }}>
         {lesson.vocab.map((v, i) => {
           const saved = bookmarks.vocab.has(v.id)
+          const isSpeaking = speaking === v.id
           return (
             <div key={v.id}>
               {i > 0 && <div className="divider" style={{ margin: 0 }} />}
               <div className="vocab-item">
                 <div style={{ flex: 1, minWidth: 0 }}>
-                  <div className="vocab-jp">{v.jp}</div>
-                  <div className="vocab-id">{v.indo}</div>
+                  <Furigana jp={v.jp} reading={v.reading} />
+                  <div className="vocab-id" style={{ marginTop: 4 }}>{v.indo}</div>
                 </div>
-                <button
-                  onClick={() => toggleBookmarkVocab(v.id)}
-                  style={{ fontSize: '20px', padding: '4px', flexShrink: 0, lineHeight: 1 }}
-                  aria-label={saved ? 'Hapus dari simpanan' : 'Simpan vocab'}
-                >
-                  {saved ? '⭐' : '☆'}
-                </button>
+                <div style={{ display: 'flex', gap: 6, alignItems: 'center', flexShrink: 0 }}>
+                  {/* Audio button */}
+                  <button
+                    onClick={() => handleSpeak(v)}
+                    style={{
+                      width: 32, height: 32, borderRadius: '50%',
+                      background: isSpeaking ? 'var(--indigo-soft)' : 'var(--bg-subtle)',
+                      display: 'flex', alignItems: 'center', justifyContent: 'center',
+                      fontSize: '15px', transition: 'all 0.2s',
+                      border: isSpeaking ? '1.5px solid var(--indigo)' : '1.5px solid transparent'
+                    }}
+                    aria-label="Putar audio"
+                  >
+                    {isSpeaking ? '🔊' : '🔈'}
+                  </button>
+                  {/* Bookmark button */}
+                  <button
+                    onClick={() => toggleBookmarkVocab(v.id)}
+                    style={{ fontSize: '20px', padding: '4px', lineHeight: 1 }}
+                    aria-label={saved ? 'Hapus dari simpanan' : 'Simpan vocab'}
+                  >
+                    {saved ? '⭐' : '☆'}
+                  </button>
+                </div>
               </div>
             </div>
           )
         })}
       </div>
+
+      <div style={{ marginTop: 12, padding: '10px 14px', background: 'var(--bg-subtle)', borderRadius: 'var(--radius-md)', display: 'flex', alignItems: 'center', gap: 8 }}>
+        <span style={{ fontSize: 16 }}>💡</span>
+        <p style={{ fontSize: 12, color: 'var(--text-muted)', lineHeight: 1.5 }}>
+          Tap 🔈 untuk mendengar pengucapan · Furigana menunjukkan cara baca kanji
+        </p>
+      </div>
     </div>
   )
 }
 
-// ── Tab: Preview Quiz ─────────────────────────────────────────────────────────
+// ── Tab: Quiz ─────────────────────────────────────────────────────────────────
 function TabQuiz({ lesson, lessonId, navigate }) {
   const { progress } = useApp()
   const result = progress[lessonId]
@@ -134,23 +188,16 @@ function TabQuiz({ lesson, lessonId, navigate }) {
       )}
 
       <div className="card" style={{ padding: '20px', textAlign: 'center' }}>
-        <div style={{ fontSize: '40px', marginBottom: '12px' }}>🧪</div>
+        <div style={{ fontSize: '40px', marginBottom: '12px' }}>✏️</div>
         <h3 style={{ fontWeight: '700', fontSize: '17px' }}>Latihan Soal</h3>
         <p style={{ color: 'var(--text-secondary)', fontSize: '14px', marginTop: '6px' }}>
           {lesson.quiz?.length ?? 0} pertanyaan pilihan ganda
         </p>
-        <button
-          className="btn btn-primary btn-full mt-4"
-          onClick={() => navigate(`/lesson/${lessonId}/quiz`)}
-        >
+        <button className="btn btn-primary btn-full mt-4" onClick={() => navigate(`/lesson/${lessonId}/quiz`)}>
           Mulai Quiz →
         </button>
         {result?.quizPercent != null && (
-          <button
-            className="btn btn-outline btn-full"
-            style={{ marginTop: '10px' }}
-            onClick={() => navigate(`/lesson/${lessonId}/quiz`)}
-          >
+          <button className="btn btn-outline btn-full" style={{ marginTop: '10px' }} onClick={() => navigate(`/lesson/${lessonId}/quiz`)}>
             Ulangi Quiz
           </button>
         )}
@@ -161,9 +208,7 @@ function TabQuiz({ lesson, lessonId, navigate }) {
         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
           {lesson.quiz?.map((q, i) => (
             <div key={i} className="card" style={{ padding: '14px 16px' }}>
-              <div style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text-muted)', marginBottom: '4px' }}>
-                Soal {i + 1}
-              </div>
+              <div style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text-muted)', marginBottom: '4px' }}>Soal {i + 1}</div>
               <p style={{ fontSize: '14px', fontFamily: 'var(--font-jp)', lineHeight: '1.6' }}>{q.question}</p>
             </div>
           ))}
@@ -173,16 +218,16 @@ function TabQuiz({ lesson, lessonId, navigate }) {
   )
 }
 
-// ── Main LessonPage ───────────────────────────────────────────────────────────
+// ── Main ──────────────────────────────────────────────────────────────────────
 const TABS = [
-  { id: 'materi',    label: '📖 Materi' },
-  { id: 'kosakata',  label: '📚 Kosakata' },
-  { id: 'quiz',      label: '🧪 Quiz' },
+  { id: 'materi',   label: '📖 Materi' },
+  { id: 'kosakata', label: '🈳 Kosakata' },
+  { id: 'quiz',     label: '✏️ Quiz' },
 ]
 
 export default function LessonPage() {
-  const { lessonId }  = useParams()
-  const navigate      = useNavigate()
+  const { lessonId } = useParams()
+  const navigate     = useNavigate()
   const { getLessonById, bookmarks, toggleBookmarkLesson } = useApp()
   const [tab, setTab] = useState('materi')
 
@@ -202,10 +247,9 @@ export default function LessonPage() {
 
   return (
     <div className="page-wrapper">
-      {/* Header */}
       <div className="page-header">
         <div className="page-header-inner">
-          <button className="back-btn" onClick={() => navigate(-1)} aria-label="Kembali">←</button>
+          <button className="back-btn" onClick={() => navigate(-1)}>←</button>
           <div style={{ flex: 1, minWidth: 0 }}>
             <div style={{ fontSize: '11px', fontWeight: '700', color: 'var(--text-muted)', letterSpacing: '0.06em', textTransform: 'uppercase' }}>
               {lesson.categoryName}
@@ -218,14 +262,12 @@ export default function LessonPage() {
             <button
               onClick={() => toggleBookmarkLesson(lessonId)}
               style={{ width: 36, height: 36, borderRadius: '50%', background: 'var(--bg-subtle)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px' }}
-              aria-label={saved ? 'Hapus bookmark' : 'Bookmark pelajaran'}
             >
               {saved ? '⭐' : '☆'}
             </button>
             <button
               onClick={() => navigate(`/lesson/${lessonId}/flashcard`)}
               style={{ width: 36, height: 36, borderRadius: '50%', background: 'var(--indigo-soft)', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '18px' }}
-              aria-label="Buka flashcard"
             >
               🎴
             </button>
@@ -233,16 +275,14 @@ export default function LessonPage() {
         </div>
       </div>
 
-      {/* Lesson ID chip */}
       <div style={{ background: 'var(--bg-subtle)', borderBottom: '1px solid var(--border)', padding: '8px 16px' }}>
         <div style={{ maxWidth: 640, margin: '0 auto', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
           <span className="badge badge-indigo">{lesson.lesson_id}</span>
           <span className="badge badge-accent">{lesson.vocab?.length ?? 0} kosakata</span>
-          <span className="badge badge-amber">{lesson.quiz?.length ?? 0} soal</span>
+          <span className="badge badge-gold">{lesson.quiz?.length ?? 0} soal</span>
         </div>
       </div>
 
-      {/* Tabs */}
       <div style={{ padding: '12px 16px', background: 'var(--bg)', borderBottom: '1px solid var(--border)', position: 'sticky', top: '69px', zIndex: 40 }}>
         <div style={{ maxWidth: 640, margin: '0 auto' }}>
           <div className="tabs">
@@ -255,7 +295,6 @@ export default function LessonPage() {
         </div>
       </div>
 
-      {/* Content */}
       <div className="page-content" style={{ paddingTop: '16px' }}>
         {tab === 'materi'   && <TabMateri   lesson={lesson} />}
         {tab === 'kosakata' && <TabKosakata lesson={lesson} />}
