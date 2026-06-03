@@ -24,6 +24,7 @@ export function AppProvider({ children }) {
   const [error, setError]     = useState(null)
 
   const [darkMode, setDarkMode] = useState(() => safeJSON('ssw_dark', true))
+  const [furiganaEnabled, setFuriganaEnabled] = useState(() => safeJSON('ssw_furigana', true))
 
   const [progress, setProgress] = useState(() => safeJSON('ssw_progress', {}))
 
@@ -44,6 +45,11 @@ export function AppProvider({ children }) {
       .then(d => { setData(d); setLoading(false) })
       .catch(e => { setError(e.message); setLoading(false) })
   }, [])
+
+  // Sync furigana
+  useEffect(() => {
+    localStorage.setItem('ssw_furigana', JSON.stringify(furiganaEnabled))
+  }, [furiganaEnabled])
 
   // Sync dark mode
   useEffect(() => {
@@ -202,7 +208,8 @@ export function AppProvider({ children }) {
       allLessons, allVocab,
       completedCount,
       getLessonById,
-      xp, level, xpInLevel, xpForNext, streak, addXp
+      xp, level, xpInLevel, xpForNext, streak, addXp,
+      furiganaEnabled, setFuriganaEnabled
     }}>
       {children}
     </AppContext.Provider>
